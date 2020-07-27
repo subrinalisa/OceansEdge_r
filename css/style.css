@@ -1,0 +1,74 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+/*header start*/
+header{
+	background: #121B2A;
+}
+header ul li a{
+	font-family: 'Roboto', sans-serif;
+	margin-right: 25px;
+	color: #fff;
+	transition: 0.3s;
+}
+header ul li a:hover{
+	color: #0777AE;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding: 230px 0 75px;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.banner button{
+	font-family: 'Roboto', sans-serif;
+}
+/*banner end*/
+/*service start*/
+.service{
+	padding: 40px 0 15px;
+	background: #121B2C;
+}
+/*service end*/
+/*contact start*/
+.contact{
+	padding: 40px 0 15px;
+	background: #040811;;
+}
+#talkbubble{
+	position: relative;
+	background-color: #0C1019;
+}
+#talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 8%;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-left: 2px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 24px solid #0C1019;
+}
+/*contact end*/
+/*footer start*/
+footer{
+	padding: 20px 0;
+	background: #121B2C;
+}
+.footer_menu li a{
+	margin-right: 10px;
+	padding:10px 0;
+}
+.footer_menu li a::after{
+	content: "|";
+	margin-left: 5px;
+}
+.footer_menu li:last-child a::after{
+	content: "";
+}
+/*footer end*/
